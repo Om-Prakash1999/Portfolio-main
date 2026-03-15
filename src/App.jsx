@@ -12,13 +12,31 @@ const App = () => {
   return (
     <div className="container mx-auto max-w-7xl">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Experiences />
-      <Testimonial />
-      <Contact />
-      <Footer/>
+      <div id="home">
+        <Hero />
+      </div>
+
+      <div id="about">
+        <About />
+      </div>
+
+      <div id="work">
+        <Projects />
+      </div>
+
+      <div id="experience">
+        <Experiences />
+      </div>
+
+      <div id="testimonial">
+        <Testimonial />
+      </div>
+
+      <div id="contact">
+        <Contact />
+      </div>
+
+      <Footer />
     </div>
   );
 };
