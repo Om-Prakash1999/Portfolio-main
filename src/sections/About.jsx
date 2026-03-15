@@ -17,7 +17,7 @@ const About = () => {
             src="assets/coding-pov.png"
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
-          <div className="z-10">
+          <div className="z-10 w-full md:w-[50%]">
             <p className="headtext">Hi, I'm Om Prakash Mohanty</p>
             <p className="subtext">
               Over the last 2+ years, I have built strong expertise as a DevOps & Infrastructure Engineer for Nokia (External Workforce), supporting mission-critical networks for AT&T and Verizon.
