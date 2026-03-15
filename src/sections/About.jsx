@@ -21,7 +21,7 @@ const About = () => {
             <p className="headtext">Hi, I'm Om Prakash Mohanty</p>
             <p className="subtext">
               Over the last 2+ years, I have built strong expertise as a DevOps & Infrastructure Engineer for Nokia (External Workforce), supporting mission-critical networks for AT&T and Verizon.
-              <br></br>I focus on automation, cloud-native infrastructure, and evolving into DevSecOps, MLOps, and AIOps to build secure, intelligent, and highly available systems.
+              <br></br> <br></br>I focus on automation, cloud-native infrastructure, and evolving into DevSecOps, MLOps, and AIOps to build secure, intelligent, and highly available systems.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
