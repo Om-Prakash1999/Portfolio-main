@@ -8,7 +8,7 @@ import { Frameworks } from "../components/Frameworks";
 const About = () => {
   const grid2Container = useRef();
   return (
-    <section className="c-space section-spacing" id="about">
+    <section className="c-space section-spacing px-4 md:px-0" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
@@ -111,7 +111,7 @@ const About = () => {
         </div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
-          <div className="z-10 w-full md:w-[50%]">
+          <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
               I specialize in a wide range of DevOps, DevSecOps, MLOps, and AIOps tools and practices that enable me to design automated, secure, and highly scalable cloud-native infrastructure and platforms.
