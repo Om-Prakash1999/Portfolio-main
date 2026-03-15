@@ -111,7 +111,7 @@ const About = () => {
         </div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
-          <div className="z-10 w-[50%]">
+          <div className="z-10 w-full md:w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
               I specialize in a wide range of DevOps, DevSecOps, MLOps, and AIOps tools and practices that enable me to design automated, secure, and highly scalable cloud-native infrastructure and platforms.
